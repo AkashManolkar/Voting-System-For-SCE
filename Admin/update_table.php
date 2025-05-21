@@ -1,0 +1,14 @@
+<?php
+require '../connect.php';
+
+
+$sql = "ALTER TABLE addcandidate ADD COLUMN description TEXT";
+
+if (mysqli_query($conn, $sql)) {
+    echo "Column 'description' added successfully";
+} else {
+    echo "Error adding column: " . mysqli_error($conn);
+}
+
+mysqli_close($conn);
+?>
