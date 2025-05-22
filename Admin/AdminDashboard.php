@@ -371,7 +371,7 @@ $result = mysqli_query($conn, $query);
 							<a class="nav-link active" aria-current="page" href="#Add Candidate">Add Candidate</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="#Total">Total Candidate</a>
+							<a class="nav-link active" aria-current="page" href="#Total">Total Candidates</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="results.php">View Results</a>
@@ -447,7 +447,7 @@ $result = mysqli_query($conn, $query);
 		<div class="row justify-content-center">
 			<div class="col-sm-10">
 				<h2 class="text-center mb-4">
-					<span class="section-title">Total List of Candidate</span>
+					<span class="section-title">Total List of Candidates</span>
 				</h2>
 				<table class="table table-bordered">
 					<thead style="text-align: center;">

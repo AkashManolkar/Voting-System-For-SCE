@@ -12,6 +12,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'] ?? null;
     $cpassword = $_POST['cpassword'] ?? null;
 
+    // $hashedPassword = password_hash($_POST['password'], PASSWORD_DEFAULT);
+
     if (!$name || !$roll_number || !$gender || !$image || !$password || !$cpassword) {
         echo '
         <script>
